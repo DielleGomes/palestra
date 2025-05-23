@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Planejamento de Treino Semanal</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1>PLANEJAMENTO DE TREINO SEMANAL</h1>
+
+  <div class="botoes">
+    <button onclick="mostrarTreino('segunda')">Segunda</button>
+    <button onclick="mostrarTreino('terca')">Terça</button>
+    <button onclick="mostrarTreino('quarta')">Quarta</button>
+    <button onclick="mostrarTreino('quinta')">Quinta</button>
+    <button onclick="mostrarTreino('sexta')">Sexta</button>
+    <button onclick="mostrarTreino('sabado')">Sábado</button>
+    <button onclick="mostrarTreino('domingo')">Domingo</button>
+  </div>
+
+  <!-- Treinos -->
+  <div id="segunda" class="treino-dia">
+    <h2>Segunda – Treino A (Pernas & Glúteos)</h2>
+    <ul>
+      <li>Leg Press 45° – 4x12</li>
+      <li>Cadeira Extensora – 3x12</li>
+      <li>Cadeira Flexora – 3x12</li>
+      <li>Glute Kickback (polia ou máquina) – 3x15 cada perna</li>
+      <li>Abdução (máquina de abrir pernas) – 3x20</li>
+    </ul>
+  </div>
+
+  <div id="terca" class="treino-dia" style="display:none">
+    <h2>Terça – Treino B (Superiores)</h2>
+    <ul>
+      <li>Pulldown (barra ao peito) – 4x12</li>
+      <li>Remada sentada – 3x12</li>
+      <li>Desenvolvimento (máquina ou halteres) – 3x12</li>
+      <li>Tríceps na polia – 3x15</li>
+      <li>Rosca direta – 3x12</li>
+    </ul>
+  </div>
+
+  <div id="quarta" class="treino-dia" style="display:none">
+    <h2>Quarta – Treino Extra (Cardio e Glúteos)</h2>
+    <ul>
+      <li>Escada (Climber) – 10 a 20 min</li>
+      <li>Bicicleta ou elíptico – 15 min</li>
+      <li>Caminhada inclinada (6-10%) – 20 min</li>
+    </ul>
+  </div>
+
+  <div id="quinta" class="treino-dia" style="display:none">
+    <h2>Quinta – Treino C (Glúteo com Estímulo Extra)</h2>
+    <ul>
+      <li>Agachamento no Smith – 4x10</li>
+      <li>Avanço com halteres ou Smith – 3x12 cada perna</li>
+      <li>Glúteo na polia ou máquina – 3x15 cada perna</li>
+      <li>Ponte de glúteo (Hip Thrust) – 4x10</li>
+      <li>Abdução com pausa – 3x20</li>
+    </ul>
+  </div>
+
+  <div id="sexta" class="treino-dia" style="display:none">
+    <h2>Sexta – Treino D (Total Body)</h2>
+    <ul>
+      <li>Leg Press – 4x15</li>
+      <li>Supino máquina ou halteres – 3x12</li>
+      <li>Puxada aberta na frente – 3x12</li>
+      <li>Cadeira Flexora – 3x15</li>
+      <li>Abdominais – 3 séries</li>
+    </ul>
+  </div>
+
+  <div id="sabado" class="treino-dia" style="display:none">
+    <h2>Sábado – Descanso ou Caminhada leve</h2>
+    <ul>
+      <li>Recuperação ativa opcional</li>
+    </ul>
+  </div>
+
+  <div id="domingo" class="treino-dia" style="display:none">
+    <h2>Domingo – Descanso Total</h2>
+    <ul>
+      <li>Descanso e regeneração muscular</li>
+    </ul>
+  </div>
+</body>
+</html>
